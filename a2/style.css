@@ -1,1 +1,57 @@
+/* Font */
+@font-face {
+   font-family: 'CooperHewittHeavy';
+   src: url('https://fontlibrary.org/assets/fonts/cooper-hewitt/ffde6e93c5d2cb8df1dfecb9b61e1e44/1.0.0/CooperHewitt-Medium.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
 
+/* Header styling */
+#page-header {
+  background-color: #9EA93F;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Container */
+#container {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+/* Row styling */
+.row {
+  position: relative;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+/* Clearfix */
+#clear {
+  clear: both;
+}
+
+/* Cells styling */
+.white, .black {
+  border: 1px solid black;
+  width: 10%;
+  height: 60px;
+  background-color:white;
+  float: left;
+}
+
+/* Colors */
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: #353B3C;
