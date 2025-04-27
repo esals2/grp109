@@ -57,3 +57,10 @@
 .black {
   background-color: #353B3C;
 }
+
+footer {
+  background-color: #9ea93f;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
